@@ -1,0 +1,36 @@
+main {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #000000;
+}
+
+#home-main {
+    height: 90%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-main-wrapper {
+    width: 75vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home-main .left p:nth-child(1) {
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+#home-main .left .buttons {
+    margin-top: 1rem;
+}
+
+#home-main .left .buttons button:nth-child(2) {
+    margin-left: 1rem;
+}

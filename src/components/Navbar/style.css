@@ -1,0 +1,21 @@
+.nav {
+    background-color: #ffffff;
+    
+    padding: 1.042vw;
+
+    border-bottom-left-radius: 0.347vw;
+    border-bottom-right-radius: 0.347vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav, .nav > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav div button:first-child {
+    margin-right: 1.042vw;
+}

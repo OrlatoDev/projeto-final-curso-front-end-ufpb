@@ -1,0 +1,25 @@
+.virtual-card {
+    background-color: #4725f0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1vw;
+    height: 15vh;
+
+    border-radius: 0.347vw;
+}
+
+.virtual-card .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    color: #ffffff;
+}
+
+.virtual-card .bottom p:nth-child(2) {
+    font-weight: 700;
+}

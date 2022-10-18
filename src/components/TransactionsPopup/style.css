@@ -1,0 +1,33 @@
+.transactions-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 20vw;
+    height: 50vh;
+
+    background-color: #ffffff;
+
+    border-radius: 0.347vw;
+
+    box-shadow: 0px 0px 10px 0px #000000;
+
+    padding: 1vw;
+
+    overflow-y: scroll;
+}
+
+.transactions-popup .transactions-popup-item {
+    padding: 1vw;
+
+    border-radius: 0.347vw;
+
+    border: #000000 solid 0.1rem;
+
+    margin-top: 1vw;
+}
+
+.transactions-popup .title:not(:first-child) {
+    margin-top: 2vw;
+}

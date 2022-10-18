@@ -1,0 +1,35 @@
+.investment-card {
+    background-color: #ffffff;
+
+    width: 20vw;
+
+    padding: 1vw;
+
+    border-radius: 0.347vw;
+
+    margin-top: 1vw;
+}
+
+.investment-card .top {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.investment-card .top .buttons button:nth-child(1) {
+    margin-right: 0.5vw;
+}
+
+.investment-card .top p {
+    font-weight: 700;
+}
+
+.investment-card .bottom {
+    margin-top: 1vw;
+}
+
+.investment-card .bottom .values {
+    display: flex;
+    flex-direction: column;
+}

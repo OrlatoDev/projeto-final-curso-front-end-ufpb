@@ -1,0 +1,19 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper input {
+    margin-top: 0.35vw;
+
+    outline: none;
+    border-radius: 0.347vw;
+}
+
+.input-wrapper .secondary-label {
+    font-size: 0.8rem;
+
+    margin-top: 0.35vw;
+
+    cursor: pointer;
+}

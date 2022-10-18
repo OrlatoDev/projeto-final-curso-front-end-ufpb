@@ -1,0 +1,16 @@
+{
+    "semi": true,
+    "trailingComma": "none",
+    "singleQuote": true,
+    "printWidth": 160,
+    "tabWidth": 4,
+    "useTabs": false,
+    "overrides": [
+        {
+            "files": "*.tsx",
+            "options": {
+                "parser": "babel-ts"
+            }
+        }
+    ]
+}
